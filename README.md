@@ -11,5 +11,7 @@ Block 1 is 'ColourTest1.xlsx'
 Block 2 is 'ColourTest2.xlsx'
 Block 3 is 'ColourTest3.xlsx'
 
+'Code for the n-back' is a copy of the code from Psychopy
 
+Please put changes on the branck called Edits, not the master.
 
