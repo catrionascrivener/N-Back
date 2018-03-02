@@ -13,5 +13,5 @@ Block 3 is 'ColourTest3.xlsx'
 
 'Code for n-back test Psychopy' is a copy of the code from Psychopy
 
-Please put changes on the branck called Edits, not the master.
+Please put changes on the branch called Edits, not the master.
 
