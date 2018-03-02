@@ -1,0 +1,355 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.85.4">
+  <Settings>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="color" updates="None" val="$[-1,-1,-1]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{u'gender': u'', u'age': u'', u'handedness': u'', u'participant': u''}" valType="code"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Window size (pixels)" updates="None" val="[1440, 900]" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="OSF Project ID" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="ColourTesting" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instructions2">
+      <TextComponent name="text_5">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="This is the 2-back test. You will have to press space if you decide the  coloured square two trials ago was the same as the current one.&amp;#10;&amp;#10;Please press space only when you decide the coloured square was repeated. Press space to begin." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_6">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_6" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Instructions3">
+      <TextComponent name="text_6">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="This is the 3-back test. You will have to press space if you decide the  coloured square three trials ago was the same as the current one.&amp;#10;&amp;#10;Please press space only when you decide the coloured square was repeated. Press space to begin." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_7">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_7" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Fixation">
+      <TextComponent name="Fix">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="Fix" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="set every repeat" val="white" valType="str"/>
+        <Param name="text" updates="set every repeat" val="+" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="set every repeat" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="set every repeat" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Welcome">
+      <TextComponent name="text_4">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Hello and welcome to the cognitive task. This is an n-back memory task&amp;#10;You will be asked to pay attention to a sequence of coloured squares&amp;#10;and decide whether you saw the same square n times ago. &amp;#10;There 3 blocks with 3 different rules.  We will inform you about the new rule.&amp;#10;Press space to continue." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_5">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_5" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Break">
+      <TextComponent name="text_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="It's now time for a short break. When you are ready to continue please press space. " valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial">
+      <PolygonComponent name="polygon">
+        <Param name="opacity" updates="set every repeat" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="polygon" valType="code"/>
+        <Param name="fillColor" updates="set every repeat" val="$colourtest" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="set every repeat" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="set every repeat" val="$colourtest" valType="str"/>
+        <Param name="ori" updates="set every repeat" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="set every repeat" val="(0.20,0.35)" valType="code"/>
+      </PolygonComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="correctAns" updates="constant" val="$corresp" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="all keys" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Thanks">
+      <TextComponent name="text_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Thank you for participanting in the experiment.&amp;#10;The experimenter will be with you shortly." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Instructions">
+      <TextComponent name="text">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="This is the 1-back test. You will have to press space if you decide the previous coloured square was the same as the current one.&amp;#10;&amp;#10;Please press space only when you decide the coloured square was repeated. Press space to begin." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Welcome"/>
+    <Routine name="Instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="Block1_1back">
+      <Param name="conditionsFile" updates="None" val="ColourTest1.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="Block1_1back" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Blue'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="trial"/>
+    <LoopTerminator name="Block1_1back"/>
+    <Routine name="Break"/>
+    <Routine name="Instructions2"/>
+    <LoopInitiator loopType="TrialHandler" name="Block2_2back">
+      <Param name="conditionsFile" updates="None" val="ColourTest2.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="Block2_2back" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Yellow'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="trial"/>
+    <LoopTerminator name="Block2_2back"/>
+    <Routine name="Break"/>
+    <Routine name="Instructions3"/>
+    <LoopInitiator loopType="TrialHandler" name="Block3_3back">
+      <Param name="conditionsFile" updates="None" val="ColourTest3.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="Block3_3back" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Yellow'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': ['space'], 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': None, 'colourtest': u'Cyan'}, {'corresp': ['space'], 'colourtest': u'Green'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'White'}, {'corresp': None, 'colourtest': u'Magenta'}, {'corresp': ['space'], 'colourtest': u'Red'}, {'corresp': None, 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Yellow'}, {'corresp': ['space'], 'colourtest': u'Blue'}, {'corresp': ['space'], 'colourtest': u'Magenta'}, {'corresp': None, 'colourtest': u'Red'}, {'corresp': ['space'], 'colourtest': u'Blue'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="trial"/>
+    <LoopTerminator name="Block3_3back"/>
+    <Routine name="Thanks"/>
+  </Flow>
+</PsychoPy2experiment>
