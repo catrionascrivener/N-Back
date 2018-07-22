@@ -1,5 +1,3 @@
-"# ChangeBlindnessAndWorkingMemory" 
-
 ColourTesting.psyexp is the code for an N-Back experiment in Psychopy. 
 The experiment has three blocks of 150 trials each.
 Block 1 is a 1-back.
@@ -13,5 +11,4 @@ Block 3 is 'ColourTest3.xlsx'.
 
 'Code for n-back test Psychopy' is a copy of the code from Psychopy
 
-Please put changes on the branch called Edits, not the master.
 
