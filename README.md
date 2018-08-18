@@ -1,4 +1,4 @@
-ColourTesting.psyexp is the code for an N-Back experiment in Psychopy. 
+ColourTesting.psyexp is the code for an N-Back experiment in Psychopy, using simple coloured squares. 
 The experiment has three blocks of 150 trials each.
 Block 1 is a 1-back.
 Block 2 is a 2-back.
