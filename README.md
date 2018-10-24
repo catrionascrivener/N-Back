@@ -11,4 +11,4 @@ Block 3 is 'ColourTest3.xlsx'.
 
 'Code for n-back test Psychopy' is a copy of the code from Psychopy
 
-
+This experiment was created by Ioana Gaftoneanu as part of a placement with our lab.
